@@ -1,9 +1,9 @@
 # numerical-sequence-generator-verilog
 A complex, hierarchical digital system designed and implemented in SystemVerilog that generates a mathematical sequence based on state dependencies, verifying hardware execution equivalence between structural and behavioral modeling.
 
-If f(n-1) is EVEN: f(n) = (2 * f(n-2) + f(n-1) + 3) mod 256
-If f(n-1) is ODD: f(n) = (2 * f(n-2) + f(n-1) - 1) mod 256
-Initial Conditions:f(0) = 0, f(1) = 0
+* If f(n-1) is EVEN: f(n) = (2 * f(n-2) + f(n-1) + 3) mod 256
+* If f(n-1) is ODD: f(n) = (2 * f(n-2) + f(n-1) - 1) mod 256
+* Initial Conditions:f(0) = 0, f(1) = 0
 
 The architecture is built using a modular top-level design integrated within Xilinx Vivado:
 * `top.sv`: The root module tying hardware elements and control signals together.
